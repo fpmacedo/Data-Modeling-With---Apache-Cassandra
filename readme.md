@@ -16,7 +16,7 @@ They'd like a data engineer to create an Apache Cassandra database which can cre
 
 ## Project Description
 
-In this project, I applied what I've learned on data modeling with Apache Cassandra and completed an ETL pipeline using Python. To complete the project, I needed to model my data by creating tables in Apache Cassandra to run queries. I was provided with part of the ETL pipeline that transfers data from a set of CSV files within a directory to create a streamlined CSV file to model and insert data into Apache Cassandra tables.
+In this project, I applied what I've learned on data modeling with Apache Cassandra and completed an ETL pipeline using Python. To complete the project, I needed to model my data by creating tables in Apache Cassandra to run queries. I was provided with part of the ETL pipeline that transfers data from a set of CSV files within a directory to create a streamlined CSV file(figure bellow) to model and insert data into Apache Cassandra tables.
 
 I've been provided with a project template that took care of all the imports and provided a structure for ETL pipeline I need to process this data.
 
