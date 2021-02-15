@@ -3,7 +3,8 @@
 
 > by Filipe Macedo 14 February 2020
 
-![](pics/cassandra.jpg)
+![](images/cassandra.jpg)
+
 
 ## Introduction
 
@@ -17,6 +18,8 @@ In this project, I applied what I've learned on data modeling with Apache Cassan
 
 I've been provided with a project template that took care of all the imports and provided a structure for ETL pipeline I need to process this data.
 
+![](images/etl_diagram.png)
+
 ## Datasets
 
 In this project, I worked with one dataset: `event_data`: this directory of csv files is partitioned by date. Here are examples of filepaths to two files in the dataset:
@@ -29,6 +32,7 @@ In this project, I worked with one dataset: `event_data`: this directory of csv 
 
 Extract, transform, load (ETL) is the general procedure of copying data from one or more sources into a destination system which represents the data differently from the sources or in a different context than the sources.
 
-- Running `ETL-Pipeline.ipynb` first preprocesses the csv file, and then includes Apache Cassandra `CREATE` and `INSERT` statements to load processed records into relevant tables. The tables are tested by running `SELECT` statements.
-- `sql_queries.py` contains all SQL queries and is imported into `ETL-Pipeline.ipynb`.
-- `functions.py` contains the preprocessing function that creates new csv files to be used for Apache Cassandra tables and is imported into `ETL-Pipeline.ipynb`.
+1. In a terminal, run `python create_tables.py` to reset the tables in the sparkifydb database.
+2. In a terminal, run `python etl.py` to process all the datasets.
+
+
