@@ -1,7 +1,7 @@
 
 # Project: Data Modeling with Apache Cassandra
 
-> by Britta Bettendorf, 14 June 2019
+> by Filipe Macedo 14 February 2020
 
 ![](pics/cassandra.jpg)
 
