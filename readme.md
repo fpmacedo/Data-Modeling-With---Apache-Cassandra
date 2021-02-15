@@ -37,4 +37,8 @@ Extract, transform, load (ETL) is the general procedure of copying data from one
 1. In a terminal, run `python create_tables.py` to reset the tables in the sparkifydb database.
 2. In a terminal, run `python etl.py` to process all the datasets.
 
+OR
+
+If you prefer another options is running the steps in the jupyter notebook `Project_1B_ Project_Template.ipynb`
+
 
