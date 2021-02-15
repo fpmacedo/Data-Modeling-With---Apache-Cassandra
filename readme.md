@@ -10,6 +10,8 @@
 
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analysis team is particularly interested in understanding what songs users are listening to. Currently, there is no easy way to query the data to generate the results, since the data reside in a directory of CSV files on user activity on the app.
 
+![](images/etl_diagram.png)
+
 They'd like a data engineer to create an Apache Cassandra database which can create queries on song play data to answer the questions. Her role is to create a database for this analysis and to test her database by running queries given to her by the analytics team from Sparkify to create the results.
 
 ## Project Description
@@ -18,7 +20,7 @@ In this project, I applied what I've learned on data modeling with Apache Cassan
 
 I've been provided with a project template that took care of all the imports and provided a structure for ETL pipeline I need to process this data.
 
-![](images/etl_diagram.png)
+![](images/image_event_datafile_new.jpg)
 
 ## Datasets
 
