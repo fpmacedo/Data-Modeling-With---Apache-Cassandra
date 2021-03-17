@@ -1,7 +1,7 @@
 
 # Project: Data Modeling with Apache Cassandra
 
-> by Filipe Macedo 14 February 2020
+> by Filipe Macedo 14 February 2021
 
 ![](images/cassandra.jpg)
 
